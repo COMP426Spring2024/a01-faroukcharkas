@@ -1,0 +1,183 @@
+html {
+    background-color: black;
+}
+
+body {
+    background-image: linear-gradient(#333, #000);
+    margin: 0;
+    min-height: 100%;
+    color: white;
+}
+
+.spacer-xxs {
+    height: 25px;
+}
+
+.spacer-xs {
+    height: 50px;
+}
+
+.spacer-sm {
+    height: 100px;
+}
+
+.spacer-md {
+    height: 200px;
+}
+
+.inner-p-30 {
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.spacer-lg {
+    height: 300px;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.w-65 {
+    width: 65%;
+}
+
+.h-full {
+    height: 100%;
+}
+
+h1 {
+    font-size: 70px;
+    color: white;
+}
+
+h2 {
+    font-size: 40px;
+    color: white;
+}
+
+.block {
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1 1 0%;
+}
+
+.flex-none {
+    flex: none;
+}
+
+.font-gideon {
+    font-family: "Gideon Roman", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-white {
+    color: white;
+}
+
+#legend, #of, #gimghoul {
+    text-align: center;
+    align-content: center;
+    height: 70px !important;
+    line-height: 70px;
+    margin: 0;
+}
+
+.margin-none {
+    margin: 0;
+}
+
+.margin-1 {
+    margin: 2px;
+}
+
+.margin-2 {
+    margin: 4px;
+}
+
+.margin-8 {
+    margin: 16px;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.font-roman {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header-link {
+    color: rgb(15, 130, 175);
+}
+
+.header-link:hover {
+    color: rgb(45, 160, 205);
+}
+
+.text-center {
+    text-align: center;
+}
+
+#castle {
+    width: 60%;
+}
+
+#castle:hover {
+    transform: rotateZ(10deg) scale(1.1, 1.1);
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.shadow {
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+.absolute {
+    position: absolute;
+}
+
+.button {
+    width: 200px;
+    height: 75px;
+}
+
+.section {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#directory {
+    width: 50%;
+}
+
+td {
+    padding: 5px;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+.content-center {
+    align-content: center;
+}
